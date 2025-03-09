@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>E-Commerce Login/Register</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Image Section -->
+        <div class="image-section">
+            <img src="img/img0.svg" alt="E-Commerce Image">
+        </div>
+
+        <!-- Forms Section -->
+        <div class="form-section">
+            <!-- Login Form -->
+            <form class="form active-form" id="login-form">
+                <h1 class="form-title">Sign In</h1>
+                <div class="form-box">
+                    <i class='bx bx-user form-icon'></i>
+                    <input type="text" placeholder="Username" class="form-input" id="login-username" required>
+                </div>
+                <div class="form-box">
+                    <i class='bx bx-lock-alt form-icon'></i>
+                    <input type="password" placeholder="Password" class="form-input" id="login-password" required>
+                </div>
+                <button type="submit" class="form-button">Sign In</button>
+                <p class="form-text">
+                    Don't have an account? 
+                    <span class="form-toggle" id="toggle-register">Register</span>
+                </p>
+            </form>
+
+            <!-- Register Form -->
+            <form class="form" id="register-form">
+                <h1 class="form-title">Register</h1>
+                <div class="form-box">
+                    <i class='bx bx-user form-icon'></i>
+                    <input type="text" placeholder="Username" class="form-input" id="register-username" required>
+                </div>
+                <div class="form-box">
+                    <i class='bx bx-at form-icon'></i>
+                    <input type="email" placeholder="Email" class="form-input" id="register-email" required>
+                </div>
+                <div class="form-box">
+                    <i class='bx bx-lock-alt form-icon'></i>
+                    <input type="password" placeholder="Password" class="form-input" id="register-password" required>
+                </div>
+                <button type="submit" class="form-button">Register</button>
+                <p class="form-text">
+                    Already have an account? 
+                    <span class="form-toggle" id="toggle-login">Login</span>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
