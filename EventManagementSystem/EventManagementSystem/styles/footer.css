@@ -1,0 +1,43 @@
+footer {
+    background-color: pink;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footer-info, .footer-contact, .footer-social {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-info h3, .footer-contact h3, .footer-social h3 {
+    color: #f8b400;
+}
+
+.footer-social .social-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer-social .social-link:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 15px;
+    font-size: 12px;
+    opacity: 0.8;
+}
